@@ -1,6 +1,6 @@
 $(window).load(function(){
-	$('.loading').fadeOut('fast');
-	$('.container').fadeIn('fast');
+	$('.loading').fadeOut('slow');
+	$('.container').fadeIn('slow');
 });
 $('document').ready(function(){
 		var vw;
@@ -16,7 +16,7 @@ $('document').ready(function(){
 			$('#b77').animate({top:240, left: vw+250},500);
 		});
 
-	$('#turn_on').click(function( fadeIn 0,5' linear ){ 
+	$('#turn_on').click(function(){ 
 		$('#bulb_yellow').addClass('bulb-glow-yellow');
 		$('#bulb_red').addClass('bulb-glow-red');
 		$('#bulb_blue').addClass('bulb-glow-blue');
