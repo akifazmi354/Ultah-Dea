@@ -1,6 +1,6 @@
 $(window).load(function(){
-	$('.loading').fadeOut('slow');
-	$('.container').fadeIn('slow');
+	$('.loading').fadeOut('fast');
+	$('.container').fadeIn('fast');
 });
 $('document').ready(function(){
 		var vw;
@@ -37,7 +37,7 @@ $('document').ready(function(){
 		$('#bulb_green').addClass('bulb-glow-green-after');
 		$('#bulb_pink').addClass('bulb-glow-pink-after');
 		$('#bulb_orange').addClass('bulb-glow-orange-after');
-		$('body').css('backgroud-color','#FFF');
+		$('body').css('backgroud-image','#FFF');
 		$('body').addClass('peach-after');
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#bannar_coming').fadeIn('slow');
