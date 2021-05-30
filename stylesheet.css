@@ -1,18 +1,18 @@
 body {
 	/*background-color: #FFDAB9;	*/
-	background-color: #000;
-	-webkit-transition:background-color linear 5s;
-	-moz-transition:background-color linear 5s;
-	-o-transition:background-color linear 5s;
-	-ms-transition:background-color linear 5s;
-	transition:background-color linear 5s;
+	background-image: url(black.png);
+	-webkit-transition:background-image linear 5s;
+	-moz-transition:background-image linear 5s;
+	-o-transition:background-image linear 5s;
+	-ms-transition:background-image linear 5s;
+	transition:background-image linear 5s;
 	overflow-x:hidden;
 }
 .container {
 	display: none;
 }
 .peach {
-	background-color: #FFDAB9;
+	background-image: url(dea.jpg);
 	
 }
 .peach-after {
